@@ -6,6 +6,9 @@ configuration for the toolchain and firmware.
 You need to have installed gcc, binutils, bzip2, flex, python, perl, make,
 find, grep, diff, unzip, gawk, getopt, subversion, libz-dev and libc headers.
 
+sudo apt-get install gcc binutils bzip2 flex python perl make gawk libncurses-dev
+
+
 Run "./scripts/feeds update -a" to get all the latest package definitions
 defined in feeds.conf / feeds.conf.default respectively
 and "./scripts/feeds install -a" to install symlinks of all of them into
